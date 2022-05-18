@@ -1,0 +1,108 @@
+<!DOCUMENT TYPE/>
+<html>
+<head>
+<title> Brundha's Personal Blog </title>
+</head>
+<body style="background-color: #000000">
+<style>
+.topnav {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  font-family:Comic Sans MS;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: FF00FF;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #FF00FF;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="main.html" class="active">Introduction</a>
+  <a href="Education.html"> Education</a>
+  <a href="skills.html">Technical Skills and Expertise Programming Languages</a>
+  <a href="Achievements.html">Achievements</a>
+  <a href="about.html">Contact details</a>
+  
+</div>
+<center>
+<font color="FF00FF">
+<font face = "Comic sans MS" size="6"><h1> Happy to see you all here..!! Welcome to my website </h1></font> </br>
+<font face = "Comic Sans MS" size="3"> <h1>Hey, I'm Brundha B..!!</h1> </font> </br>
+ <font face = "Comic Sans MS" size="3"> <h1> B.Tech(IT)- 2nd Year</h1></font> </br>
+ <font face = "Comic Sans MS" size="3"> <h1>Bannari Amman Institute of Technology </h1></font>  <br>
+</center>
+<center>
+<img src="photo1.jpg" alt="photo" width="500" height="600" >
+</center>
+<center>
+<font face = "Comic sans MS" size="5"> <p1>  Programmer and a passionate learner who always urges and willing to learn many new technologies.
+ At present a second year undergraduate student pursuing Bachelors degree in Information Technology 
+ at Bannari Amman Institute of Technology, Sathyamangalam.</p1>
+<font face = "Comic sans MS" size="6"><h3> CODING ISN'T ABOUT LEARNING,IT'S ALL ABOUT CONSTANT PRACTICE </h3></font></br>
+</center>
+<style>
+div{
+ margin-bottom:10px;
+ }
+ label{
+ display:inline-block;
+ width:150px;
+ }
+ </style>
+<form method="post" action="in.php">
+<h1> Let's Get in touch..Leave your Comments here..!! </h1>
+<div>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your good Name" />
+      </div>
+      <div>
+        <label for="Designation">Designation</label>
+        <input type="text" id="Designation" name="Designation" placeholder="Enter your Designation" />
+      </div>
+      <div>
+        <label for="Email ">Email </label>
+        <input type="text" id="Email " name="Email " placeholder="Enter your Email " />
+      </div>
+	  <div>
+        <label for="PhoneNumber">PhoneNumber</label>
+        <input type="Int" id="PhoneNumber" name="PhoneNumber" placeholder="Enter your PhoneNumber" />
+      </div>
+	  <div>
+        <label for="Comment"> Comment</label>
+        <input type="text" id="Coment" name="Comment" placeholder="Leave your Comments" />
+      </div>
+      <input type="submit" value="Submit" />
+    </form>
+</form>
+<center>
+<h1>                   THANK YOU..!!       </h1>
+</center>
+</body>
+</html>
+
